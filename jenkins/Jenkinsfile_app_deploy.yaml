@@ -14,7 +14,7 @@ pipeline {
                     branches: [[name: '*/master']], // 'master' 브랜치를 대상으로 합니다.
                     userRemoteConfigs: [[
                         url: 'https://github.com/kakaojungwoo/k8s_toy.git',
-                        credentialsId: 'git' // Jenkis에 등록한 Gib Token 정보
+                        credentialsId: 'git' // Jenkis에 등록한 Git Token 정보
                     ]]
                 ])
             }
